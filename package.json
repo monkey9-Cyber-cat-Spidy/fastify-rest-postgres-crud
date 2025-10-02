@@ -1,9 +1,27 @@
 {
   "name": "fastify-rest-postgres-crud",
-  "version": "1.3.0",
+  "version": "1.0.0",
+  "description": "Ultra-fast RESTful microservice built with Fastify, PostgreSQL connection pooling, JSON schema compilation, and complete CRUD route controllers.",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/*.test.js"
+  },
   "dependencies": {
-    "fastify": "^4.28.1",
-    "@fastify/swagger": "^8.14.0",
-    "pg": "^8.12.0"
-  }
+    "fastify": "^4.26.2",
+    "pg": "^8.11.5"
+  },
+  "keywords": [
+    "fastify",
+    "postgresql",
+    "rest-api",
+    "crud",
+    "json-schema",
+    "microservice",
+    "high-performance",
+    "node"
+  ],
+  "author": "Kuncham Venkata Satya Manikanta",
+  "license": "MIT"
 }
